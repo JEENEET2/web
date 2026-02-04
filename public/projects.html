@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Projects | GenZ Smart - Our Portfolio & Case Studies</title>
+    <meta name="title" content="Projects | GenZ Smart - Our Portfolio & Case Studies">
+    <meta name="description" content="Explore GenZ Smart's portfolio of successful projects. See how we've helped businesses transform through innovative technology solutions.">
+    <meta name="keywords" content="GenZ Smart projects, portfolio, case studies, tech projects, digital transformation, software development projects">
+    <meta name="author" content="GenZ Smart">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://genzsmart.com/projects.html">
+    <meta property="og:title" content="Projects | GenZ Smart - Our Portfolio & Case Studies">
+    <meta property="og:description" content="Explore GenZ Smart's portfolio of successful projects. See how we've helped businesses transform through innovative technology solutions.">
+    <meta property="og:image" content="https://genzsmart.com/images/projects-og.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://genzsmart.com/projects.html">
+    <meta property="twitter:title" content="Projects | GenZ Smart - Our Portfolio & Case Studies">
+    <meta property="twitter:description" content="Explore GenZ Smart's portfolio of successful projects. See how we've helped businesses transform through innovative technology solutions.">
+    <meta property="twitter:image" content="https://genzsmart.com/images/projects-og.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://genzsmart.com/projects.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "GenZ Smart Projects Portfolio",
+        "description": "Our portfolio of successful technology projects and case studies",
+        "url": "https://genzsmart.com/projects.html"
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🚀</span>
+                <span class="logo-text">GenZ<span class="highlight">Smart</span></span>
+            </a>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <span class="page-tag">Our Work</span>
+                <h1 class="page-title">Featured <span class="gradient-text">Projects</span></h1>
+                <p class="page-subtitle">Showcasing our best work and success stories</p>
+            </div>
+        </div>
+        <div class="page-header-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+    </section>
+
+    <!-- Projects Stats -->
+    <section class="projects-stats">
+        <div class="container">
+            <div class="stats-row">
+                <div class="stat-box">
+                    <span class="stat-number-large">50+</span>
+                    <span class="stat-label-large">Projects Completed</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number-large">30+</span>
+                    <span class="stat-label-large">Happy Clients</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number-large">15+</span>
+                    <span class="stat-label-large">Industries Served</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number-large">99%</span>
+                    <span class="stat-label-large">Client Satisfaction</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Filter -->
+    <section class="projects-filter-section">
+        <div class="container">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="saas">SaaS</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid-section">
+        <div class="container">
+            <div class="projects-grid-full" id="projectsGrid">
+                <!-- Projects will be loaded dynamically from database -->
+                <div class="project-card skeleton">
+                    <div class="skeleton-image"></div>
+                    <div class="skeleton-text"></div>
+                    <div class="skeleton-text short"></div>
+                </div>
+                <div class="project-card skeleton">
+                    <div class="skeleton-image"></div>
+                    <div class="skeleton-text"></div>
+                    <div class="skeleton-text short"></div>
+                </div>
+                <div class="project-card skeleton">
+                    <div class="skeleton-image"></div>
+                    <div class="skeleton-text"></div>
+                    <div class="skeleton-text short"></div>
+                </div>
+                <div class="project-card skeleton">
+                    <div class="skeleton-image"></div>
+                    <div class="skeleton-text"></div>
+                    <div class="skeleton-text short"></div>
+                </div>
+                <div class="project-card skeleton">
+                    <div class="skeleton-image"></div>
+                    <div class="skeleton-text"></div>
+                    <div class="skeleton-text short"></div>
+                </div>
+                <div class="project-card skeleton">
+                    <div class="skeleton-image"></div>
+                    <div class="skeleton-text"></div>
+                    <div class="skeleton-text short"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Case Study -->
+    <section class="case-study-section">
+        <div class="container">
+            <div class="case-study">
+                <div class="case-study-header">
+                    <span class="case-study-tag">Featured Case Study</span>
+                    <h2>Transforming E-Commerce with <span class="gradient-text">AI-Powered Solutions</span></h2>
+                </div>
+                
+                <div class="case-study-content">
+                    <div class="case-study-info">
+                        <div class="case-info-item">
+                            <span class="case-info-label">Client</span>
+                            <span class="case-info-value">ShopMax Global</span>
+                        </div>
+                        <div class="case-info-item">
+                            <span class="case-info-label">Industry</span>
+                            <span class="case-info-value">E-Commerce</span>
+                        </div>
+                        <div class="case-info-item">
+                            <span class="case-info-label">Duration</span>
+                            <span class="case-info-value">6 Months</span>
+                        </div>
+                        <div class="case-info-item">
+                            <span class="case-info-label">Services</span>
+                            <span class="case-info-value">AI/ML, Web Development</span>
+                        </div>
+                    </div>
+                    
+                    <div class="case-study-description">
+                        <h3>The Challenge</h3>
+                        <p>ShopMax Global was struggling with customer retention and personalized shopping experiences. Their existing platform couldn't handle the scale of their growing user base, leading to slow load times and abandoned carts.</p>
+                        
+                        <h3>The Solution</h3>
+                        <p>We developed a comprehensive AI-powered recommendation engine and modernized their entire e-commerce platform. Our solution included:</p>
+                        <ul>
+                            <li>Machine learning algorithms for personalized product recommendations</li>
+                            <li>Real-time inventory management system</li>
+                            <li>Optimized checkout process reducing abandonment by 40%</li>
+                            <li>Advanced analytics dashboard for business insights</li>
+                        </ul>
+                        
+                        <h3>The Results</h3>
+                        <div class="case-results">
+                            <div class="case-result">
+                                <span class="result-number">150%</span>
+                                <span class="result-label">Increase in Sales</span>
+                            </div>
+                            <div class="case-result">
+                                <span class="result-number">40%</span>
+                                <span class="result-label">Reduced Cart Abandonment</span>
+                            </div>
+                            <div class="case-result">
+                                <span class="result-number">3x</span>
+                                <span class="result-label">Faster Load Times</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Tech Stack</span>
+                <h2 class="section-title">Technologies We <span class="gradient-text">Use</span></h2>
+                <p class="section-subtitle">Modern tools for modern solutions</p>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-icon">⚛️</div>
+                    <span>React</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">▲</div>
+                    <span>Next.js</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">🟢</div>
+                    <span>Node.js</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">🐍</div>
+                    <span>Python</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">🤖</div>
+                    <span>AI/ML</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">☁️</div>
+                    <span>AWS</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">🐳</div>
+                    <span>Docker</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">📱</div>
+                    <span>React Native</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
+                <p class="section-subtitle">Feedback from the businesses we've helped transform</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"GenZ Smart transformed our digital presence completely. Their innovative approach and technical expertise exceeded all our expectations. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <span class="author-name">Sarah Johnson</span>
+                            <span class="author-role">CEO, TechStart Inc.</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Working with GenZ Smart was a game-changer for our business. They delivered a solution that not only met but surpassed our requirements."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <span class="author-name">Michael Chen</span>
+                            <span class="author-role">CTO, DataFlow Systems</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The team's dedication to quality and innovation is unmatched. They don't just build products; they create experiences that drive results."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <span class="author-name">Emily Rodriguez</span>
+                            <span class="author-role">Founder, GrowthLabs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-content">
+                    <h2>Have a Project in Mind?</h2>
+                    <p>Let's bring your vision to life. We're ready to help you build something extraordinary.</p>
+                    <a href="contact.html" class="btn btn-white">
+                        <span>Start Your Project</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="cta-decoration">
+                    <div class="cta-orb"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-icon">🚀</span>
+                        <span class="logo-text">GenZ<span class="highlight">Smart</span></span>
+                    </a>
+                    <p class="footer-tagline">Building the future with innovation and technology. Join us on our journey to transform the digital landscape.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="GitHub" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Product Development</a></li>
+                        <li><a href="#">Digital Strategy</a></li>
+                        <li><a href="#">Tech Consulting</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: hello@genzsmart.com</p>
+                    <p>Location: Innovation Hub, Tech City</p>
+                    <p class="footer-hours">Available: Mon - Fri, 9AM - 6PM</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 GenZ Smart. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/js/main.js"></script>
+    <script>
+        // Load projects
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadAllProjects();
+            initProjectFilters();
+        });
+    </script>
+</body>
+</html>

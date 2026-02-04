@@ -1,0 +1,32 @@
+{
+  "name": "genzsmart-website",
+  "version": "1.0.0",
+  "description": "GenZ Smart - Premium Tech Startup Website with SQLite Database",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "dev": "nodemon api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tech",
+    "startup",
+    "website",
+    "sqlite",
+    "express",
+    "premium"
+  ],
+  "author": "GenZ Smart",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
